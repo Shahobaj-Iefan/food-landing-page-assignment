@@ -1,0 +1,437 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-color{
+    color: #FF9401;
+    text-transform: capitalize; 
+}
+
+/******** HEADER AREA *******/
+.header-area{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.header-area .header-intro{
+    width: 50%;
+}
+
+.header-area .header-intro h1{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #585858;
+    text-transform: uppercase;
+}
+
+.header-area .header-intro p{
+    text-transform: capitalize;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    padding: 18px 25px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-image: linear-gradient(#FB8F48, #FD4E2F);
+}
+
+.header-area .btn:hover{
+    background-image: linear-gradient(#FD4E2F, #FB8F48);
+}
+
+.header-area .header-hero{
+    width: 50%;
+}
+
+.header-hero img{
+    width: 100%;
+    height: 100%;
+}
+
+/****** ABOUT SECTION *******/
+
+.about-section{
+    background-image: url('/images/Frame 59.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.about-section .container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.about-section .food-image{
+    width: 50%;
+}
+.about-section .food-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-section .about-content{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.about-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.about-content h2{
+    color: #585858;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.about-content p{
+    font-size: 12px;
+    text-align: justify;
+    text-transform: capitalize;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+/********* FOOD ITEM SECTION **********/
+
+.cart-btn{
+   padding: 10px 14px;
+    font-size: 12px;
+    background-color: #e7e3e3;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.food-item{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.food-item h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.food-item h2{
+    color: #585858;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.food-container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+
+.frist-box{
+    text-align: center;
+    min-height: 400px;
+     box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+    border: 4px solid gray;
+    margin: 0 10px;
+}
+
+.frist-box img{
+    width: 300px;
+    height: 200px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.second-box img{
+    width: 300px;
+    height: 200px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.third-box img{
+    width: 300px;
+    height: 200px;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+
+
+.frist-box h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.frist-box P{
+    font-size: 12px;
+    text-align: justify;
+    color: #9A9A9A;
+    padding: 20px 10px;
+    text-transform: capitalize;
+}
+
+
+
+.second-box{
+    text-align: center;
+    min-height: 400px;
+     box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+    border: 4px solid gray;
+    margin: 0 10px;
+}
+
+.second-box h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.second-box P{
+    font-size: 12px;
+    text-align: justify;
+    color: #9A9A9A;
+    padding: 20px 10px;
+    text-transform: capitalize;
+}
+
+.third-box{
+    text-align: center;
+    min-height: 400px;
+     box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+    border: 4px solid gray;
+    margin: 0 10px;
+}
+
+.third-box h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.third-box P{
+    font-size: 12px;
+    text-align: justify;
+    color: #9A9A9A;
+    padding: 20px 10px;
+    text-transform: capitalize;
+}
+
+/******* FOOD ITEM AREA END ********/
+
+/******** OUR FLOWER SECTION STRAT *********/
+.our-flower{
+    text-align: center;
+    padding: 30px 0;
+}
+.flower-container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.align-item{
+    width: 40%;
+    margin: 30px 50px;
+}
+
+.align-item h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 10px;
+    color: #585858;
+    text-transform: uppercase;
+}
+
+.align-item h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    text-transform: capitalize;
+}
+/******** OUR FLOWER SECTION END *********/
+
+/******* ORDER SECTION STRAT ********/
+.order-food{
+    padding: 100px 0;
+    background-image: url('/images/food-order.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.order-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mobile-img{
+    width: 50%;
+}
+
+.mobile-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.order-content{
+    width: 50%;
+}
+
+.order-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #9A9A9A;
+}
+
+.order-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.order-btn{
+    padding: 18px 25px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-image: linear-gradient(#FB8F48, #FD4E2F);
+}
+
+.order-btn:hover{
+    background-image: linear-gradient(#ff7e09, #cc680e);
+}
+/******* ORDER SECTION END ********/
+/******* CLIENT RIVIEW START *******/
+.client-review{
+    padding: 100px 0;
+}
+.review-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.client-comment h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #9A9A9A;
+}
+
+.client-comment h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.client-comment p{
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #585858;
+}
+
+.client-comment h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.food-review-img{
+    width: 50%;
+}
+
+.food-review-img img{
+    width: 100%;
+    height: 100%;
+}
+/******* CLIENT RIVIEW END*******/
+
+/***** FOOTER SECTION START ******/
+
+.footer-area{
+    background-color: #0B0E17;
+    text-align: center;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-item{
+    padding: 10px 50px;
+    width: 40%;
+}
+
+.footer-item ul{
+    list-style: none;
+}
+
+.footer-item ul li{
+    padding: 15px 0;
+}
+
+.footer-item ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.current a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+}
+.footer-area p{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+}
+/***** FOOTER SECTION END ******/
